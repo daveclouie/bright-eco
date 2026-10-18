@@ -1,0 +1,13 @@
+:root{--pine:#16363a;--sun:#f2a900;--paper:#f2f5f4;--ink:#1d2a2d}
+body{background:var(--paper);color:var(--ink);font-family:"Public Sans",system-ui,sans-serif}
+.topbar{background:var(--pine);color:#dfeae8}
+.topbar a{color:#dfeae8;text-decoration:none}
+.topbar .nav-link{padding:.35rem .8rem;border-radius:6px}
+.topbar .nav-link.active{background:var(--sun);color:#16363a;font-weight:600}
+.brand{color:var(--sun);font-size:1.1rem}
+.panel{background:#fff;border:1px solid #d9e2e0;border-radius:8px;padding:1.25rem}
+.btn-sun{background:var(--sun);border-color:var(--sun);color:#16363a;font-weight:600}
+.btn-sun:hover{background:#d99700;border-color:#d99700}
+.low{background:#fff4d6}
+.big{font-size:1.9rem;font-weight:700;line-height:1}
+@media print{.topbar,.no-print{display:none!important}.panel{border:0}}
